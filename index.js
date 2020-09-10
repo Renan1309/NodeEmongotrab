@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 
-mongoose.connect('mongodb://renan:renan123@ds141902.mlab.com:41902/servico');
+mongoose.connect('mongodb://@ds141902.mlab.com:41902/servico');
 
 app.set('port', (process.env.PORT || 8080))
 
